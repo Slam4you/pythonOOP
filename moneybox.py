@@ -14,7 +14,7 @@ class MoneyBox:
         if x.can_add(v):
             self.val += v
 
-x = MoneyBox(10)
+x = MoneyBox(14)
 while True:
     x.add(int(input('How much to add?')))
     print(x.val)
